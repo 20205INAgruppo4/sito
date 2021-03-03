@@ -1,8 +1,11 @@
 * https://www.mise.gov.it/index.php/it/impresa/competitivita-e-nuove-imprese/start-up-innovative 
 
 * Esempi di incubatori in cui vengono sviluppate start up 
- * in Trentino: https://www.trentinogiovani.it/incubatori-pubblici/ https://www.trentinogiovani.it/incubatori-privati/
- * in Veneto: https://infinitearea.com/ https://dolomitihub.it/
+	* in Trentino:
+		* https://www.trentinogiovani.it/incubatori-pubblici/
+		* https://www.trentinogiovani.it/incubatori-privati/
+    
+	* in Veneto: https://infinitearea.com/ https://dolomitihub.it/
 
 * COS'È UNA STARTUP https://www.startupgeeks.it/startup/
 * what id a startup https://www.marketingtutor.net/what-is-a-startup-company/
