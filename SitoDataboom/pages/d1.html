@@ -1,1 +1,83 @@
-<!--Cloud-->
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Databoom | Il protocollo MQTT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<a href="../index.html"><h1>STARTBOOM</h1></a>
+					<p>Il protocollo MQTT</p>
+				</header>
+				<footer>
+				</footer>
+			</section>
+
+		<!-- Banner -->
+			<section id="banner">
+				<header>
+					<h2>IL PROTOCOLLO MQTT</h2>
+				</header>
+				<p>Un protocollo di comunicazione, nato un ventennio fa, in ragione della sua flessibilità e facilità d’utilizzo, si è progressivamente affermato come uno standard de facto dell’Internet of Things</p>
+				<footer>
+					<a href="#first" class="button style2 scrolly">Continua</a>
+				</footer>
+			</section>
+
+		<!-- Generic -->
+
+			<article class="container box style3" id="first">
+				<section>
+					<header>
+						<h2>COS È IL PROTOCOLLO MQTT</h2>
+					</header>
+					<p>MQTT è un protocollo di pubblicazione/sottoscrizione per lo spostamento dei dati tra un dispositivo IoT e un server.</p>
+					<p>A differenza del protocollo HTTP, MQTT è guidato dagli eventi e consente il push dei messaggi ai client.</p>
+					<p>Questo tipo di architettura separa i client gli uni dagli altri per consentire una soluzione scalabile dove produttori di dati e consumatori di dati sono indipendenti.</p>
+					<p>Sviluppato originariamente nel 1999 da Andy Standford-Clark e Arlen Nipper per monitorare oleodotti e gasdotti su connessioni satellitari remote.</p>
+					<p>Oggi, tutte le principali piattaforme IoT, i provider di servizi cloud IoT e molti gateway e dispositivi IoT edge supportano la connettività con MQTT.</p>
+					<p>MQTT è utilizzato in molti settori e applicazioni come le telecomunicazioni, l'energia, la sicurezza pubblica, i prodotti connessi e altro ancora.</p>
+					<p>I principali vantaggi di MQTT sono:</p>
+                    <ul>
+						<li>Leggero ed efficiente</li>
+						<li>Riduce al minimo risorse e larghezza di banda.</li>
+						<li>Abilita la comunicazione bidirezionale tra dispositivi e server.</li>
+						<li>Scalabile fino a milioni di dispositivi.</li>
+                        <li>Supporta sessioni persistenti tra dispositivo e server per ridurre il tempo di riconnessione richiesto su reti inaffidabili.</li>
+                        <li>Specifica i livelli di qualità del servizio (QoS).</li>
+                        <li>I messaggi possono essere crittografati con TLS e supportano i protocolli di autenticazione del client.</li>
+					</ul>
+                    <img src="../images/mqtt1.jpg" alt="Immagine non disponibile" style="width: 100%;"><br>
+                    <i>Architettura di pubblicazione/sottoscrizione MQTTS</i>
+				</section>
+				<section>
+					<header>
+						<h2>CONCETTI DI BASE</h2>
+					</header>
+					<p>Al centro di MQTT ci sono il broker MQTT e i client MQTT. Il broker gestisce l'invio dei messaggi tra il mittente e i vari destinatari. Un client MQTT inoltra un messaggio a un broker e altri client possono iscriversi al broker per ricevere messaggi.</p>
+					<p>Ogni messaggio MQTT include un argomento. Un client pubblica un messaggio su un argomento specifico e i client MQTT definiscono gli argomenti che desiderano ricevere. Il broker MQTT utilizza gli argomenti e l'elenco dei dispositivi iscritti per inviare messaggi ai client appropriati.</p>
+					<p>Un broker MQTT è in grado di memorizzare nel buffer i messaggi che non possono essere inviati ai client MQTT che non sono connessi.</p>
+					<p>Esistono due versioni della specifica: MQTT 3.1.1 e MQTT 5. La maggior parte dei broker MQTT commerciali supporta MQTT 5, ma molti dei servizi cloud gestiti IoT utilizzano MQTT 3.1.1.</p>
+                    <img src="../images/mqtt2.jpg" alt="Immagine non disponibile" style="width: 100%;"><br>
+                    <i>Esempio di comunicazione tra il client del sensore e il centro di controllo tramite MQTT</i>
+                </section>
+				<p style="text-align: right;">di A. Betalli</p>
+				
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../assets/js/jquery.poptrox.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
